@@ -1,0 +1,26 @@
+{
+    "name": "paper-theme",
+    "displayName": "Paper",
+    "publisher": "sonianurag",
+    "license": "MIT",
+    "description": "Light color scheme with minimal colors",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "git": "https://github.com/anuragsoni/paper-theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Paper",
+                "uiTheme": "vs",
+                "path": "./themes/paper-color-theme.json"
+            }
+        ]
+    }
+}
