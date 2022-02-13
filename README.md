@@ -4,4 +4,4 @@ Light color scheme with minimal colors, based on the [monochrome](https://github
 
 ## Preview
 
-![Preview using OCaml](https://user-images.githubusercontent.com/5814535/153731841-7c7d310e-6b13-463a-829c-906e307ff5bb.png)
+![Preview using OCaml](https://user-images.githubusercontent.com/5814535/153767847-3b87919e-0d8c-4bcc-933b-b2eca7ecada1.png)

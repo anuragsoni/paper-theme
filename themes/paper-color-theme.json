@@ -295,7 +295,7 @@
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#111111"
+                "foreground": "#1E6FCC"
             }
         },
         {
@@ -332,7 +332,7 @@
             "scope": "markup.heading punctuation.definition.heading, entity.name.section",
             "settings": {
                 "foreground": "#4c4c49",
-                "fontStyle": ""
+                "fontStyle": "bold"
             }
         },
         {
