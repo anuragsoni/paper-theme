@@ -4,9 +4,9 @@
     "publisher": "sonianurag",
     "license": "MIT",
     "description": "Light theme with minimal colors",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "engines": {
-        "vscode": "^1.64.0"
+        "vscode": "^1.40.0"
     },
     "categories": [
         "Themes"
