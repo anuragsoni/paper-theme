@@ -4,9 +4,10 @@
     "variables": {
         "active": "#111111",
         "selection": "#e3e3d9",
-        "blue": "#1E6FCC",
+        "blue": "#1e6fcc",
         "green": "#216609",
-        "red": "#CC3E28",
+        "red": "#cc3e28",
+        "yellow": "#b58900",
         "foreground": "#111111"
     },
     "globals": {
@@ -55,6 +56,18 @@
         },
         {
             "scope": "constant.numeric",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "sublimelinter.mark.error, markup.error.lsp, markup.deleted.lsp",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "sublimelinter.mark.warning, markup.warning.lsp, markup.changed.lsp",
+            "foreground": "var(yellow)"
+        },
+        {
+            "scope": "markup.info.lsp, markup.inserted.lsp",
             "foreground": "var(blue)"
         }
     ]
