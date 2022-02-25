@@ -1,0 +1,61 @@
+{
+    "name": "Paper",
+    "author": "Anurag Soni",
+    "variables": {
+        "active": "#111111",
+        "selection": "#e3e3d9",
+        "blue": "#1E6FCC",
+        "green": "#216609",
+        "red": "#CC3E28",
+        "foreground": "#111111"
+    },
+    "globals": {
+        "foreground": "#111111",
+        "background": "#fffff4",
+        "caret": "var(active)",
+        "line_highlight": "#f3f3e9",
+        "misspelling": "var(red)",
+        "selection": "var(selection)",
+        "selection_border_width": "0",
+        "inactive_selection": "#E0E0E0",
+        "selection_corner_radius": "2",
+        "highlight": "var(foreground)",
+        "brackets_options": "foreground underline",
+        "brackets_foreground": "var(active)",
+        "bracket_contents_options": "bold foreground underline",
+        "bracket_contents_foreground": "var(active)",
+        "tags_options": "foreground",
+        "tags_foreground": "var(active)"
+    },
+    "rules": [
+        {
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "#a9a9a2"
+        },
+        {
+            "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array",
+            "foreground": "var(foreground)"
+        },
+        {
+            "scope": "keyword, keyword.operator",
+            "font_style": "bold",
+            "foreground": "var(foreground)"
+        },
+        {
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "markup.bold, markup.heading, punctuation.definition.bold",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "scope": "constant.numeric",
+            "foreground": "var(blue)"
+        }
+    ]
+}
