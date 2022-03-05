@@ -1,0 +1,47 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "paper",
+    "type": "light",
+    "colors": {
+        "editor.background": "#f8f8f8",
+        "editor.lineHighlightBackground": "#f0f0f0",
+        "editor.foreground": "#000000",
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "string",
+                "string.regexp",
+            ],
+            "settings": {
+                "foreground": "#a31515",
+            }
+        },
+        {
+            "scope": [
+                "keyword",
+                "keyword.operator",
+                "keyword.other",
+                "markup.bold",
+                "markup.heading",
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "markup.italic",
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#008000"
+            }
+        }
+    ]
+}

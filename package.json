@@ -4,7 +4,7 @@
     "publisher": "sonianurag",
     "license": "MIT",
     "description": "Light theme with minimal colors",
-    "version": "0.3.3",
+    "version": "0.4.0",
     "engines": {
         "vscode": "^1.40.0"
     },
@@ -21,6 +21,11 @@
                 "label": "Paper",
                 "uiTheme": "vs",
                 "path": "./themes/paper-color-theme.json"
+            },
+            {
+                "label": "Paper Alternate",
+                "uiTheme": "vs",
+                "path": "./themes/paper-alternate-theme.json"
             }
         ]
     },
